@@ -4,3 +4,6 @@ build:
 
 run:
 	docker run -e MICRO_REGISTRY=mdns catalog-cli
+
+clean:
+	rm catalog-cli

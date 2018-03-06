@@ -10,8 +10,9 @@ service CatalogService {
 
 message Product {
   string id = 1;
-  string name = 2;
-  string description = 3;
+  string sku = 2;
+  string name = 3;
+  string description = 4;
 }
 
 message GetRequest {}
